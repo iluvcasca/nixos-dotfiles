@@ -21,6 +21,15 @@
         };
       })
 
+      (final: prev: {
+        vimPlugins = prev.vimPlugins // {
+          header_42-vim = prev.vimUtils.buildVimPlugin {
+            name = "header_42-vim";
+            src = inputs.plugin-header_42-vim;
+          };
+        };
+      })
+
     ];
   };
 
@@ -43,6 +52,7 @@ in
       nodePackages.pyright
       vscode-extensions.vadimcn.vscode-lldb
       nixfmt
+      clang-tools
     ];
 
 	plugins = with pkgs.vimPlugins; [
@@ -59,6 +69,7 @@ in
           plugin = nvim-dap-ui;
           config = toLuaFile ./lua/plugins/dap-ui.lua;
         }
+        header_42-vim
         harpoon        
         nvim-dap
         undotree

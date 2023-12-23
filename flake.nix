@@ -19,6 +19,9 @@
     plugin-betterTerm-nvim.url = "github:CRAG666/betterTerm.nvim";
     plugin-betterTerm-nvim.flake = false;
 
+    plugin-header_42-vim.url = "github:42Paris/42header";
+    plugin-header_42-vim.flake = false;
+
     emacs-overlay.url = "github:nix-community/emacs-overlay";
 
   };

@@ -36,6 +36,7 @@
     cmake
     gnumake
     llvmPackages_latest.libcxxClang
+    llvmPackages_latest.libcxx
     libtool
     tree
     brightnessctl

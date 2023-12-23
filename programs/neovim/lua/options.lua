@@ -40,3 +40,7 @@ vim.g.netrw_winsize = 25
 vim.g.netrw_keepdir = 0
 vim.g.netrw_list_hide = "\\(^\\|\\s\\s\\)\\zs\\.\\S\\+"
 vim.g.netrw_localcopycmd = 'cp -r'
+
+-- header_42-vim
+vim.g.user42 = 'kgriset'
+vim.g.mail42 = 'kgriset@student.42.fr'

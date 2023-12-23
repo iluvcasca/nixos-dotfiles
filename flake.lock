@@ -341,6 +341,22 @@
         "type": "github"
       }
     },
+    "plugin-header_42-vim": {
+      "flake": false,
+      "locked": {
+        "lastModified": 1635619065,
+        "narHash": "sha256-e6gCHEd5/+YtEIcsngQjHnICPd2wGp5P+yGIlgRFFws=",
+        "owner": "42Paris",
+        "repo": "42header",
+        "rev": "71e6a4df6d72ae87a080282bf45bb993da6146b2",
+        "type": "github"
+      },
+      "original": {
+        "owner": "42Paris",
+        "repo": "42header",
+        "type": "github"
+      }
+    },
     "prism": {
       "inputs": {
         "home-manager": "home-manager_2",
@@ -370,6 +386,7 @@
         "nixpkgs": "nixpkgs_3",
         "plugin-betterTerm-nvim": "plugin-betterTerm-nvim",
         "plugin-cellular-automaton": "plugin-cellular-automaton",
+        "plugin-header_42-vim": "plugin-header_42-vim",
         "prism": "prism"
       }
     },
