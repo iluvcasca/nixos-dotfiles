@@ -4,7 +4,7 @@
     enable = true;
     font.name = "FiraCode Nerd Font Mono";
     settings = {
-      background_opacity = "0.7";
+      background_opacity = "0.9";
       background = "#${base00}";
       foreground = "#${base05}";
       selection_foreground = "#${base06}";
