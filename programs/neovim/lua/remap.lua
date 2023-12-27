@@ -9,9 +9,7 @@ vim.keymap.set('n', '<C-p>', builtin.git_files, {})
 vim.keymap.set('n', '<leader>ps', function ()
 	builtin.grep_string({ search = vim.fn.input("Grep > ") });
 end)
-vim.keymap.set('n', '<leader>lg', function ()
-	builtin.live_grep({ search = vim.fn.input("Live Grep > ") });
-end)
+vim.keymap.set('n', '<leader>lg',builtin.live_grep, {desc = "Live Grep"})
 
 -- harpoon
 local mark = require("harpoon.mark")
