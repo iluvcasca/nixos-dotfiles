@@ -32,6 +32,8 @@
     userName = "iluvcasca";
   };
   home.packages = with pkgs; [
+    vivaldi
+    firejail
     norminette
     cool-retro-term
     cmake
